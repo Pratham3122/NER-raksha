@@ -5,6 +5,8 @@ import { AlertBadge } from '../../components/ui/AlertBadge';
 import { StatusBadge } from '../../components/ui/StatusBadge';
 import { MapView } from './MapView';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 interface HealthData {
   overall: string;
   data_mode: string;
@@ -46,7 +48,7 @@ export default function CommandCenter() {
 
   const fetchHealth = useCallback(async () => {
     try {
-      const res = await fetch('http://localhost:8000/api/system/health');
+      const res = await fetch(`${API_BASE_URL}/api/system/health`);
       if (res.ok) setHealth(await res.json());
     } catch { /* API offline — normal in demo */ }
   }, []);
@@ -220,3 +222,4 @@ export default function CommandCenter() {
     </div>
   );
 }
+
