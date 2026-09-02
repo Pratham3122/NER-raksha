@@ -31,6 +31,8 @@ jobs:
         run: npm ci
       - name: Build frontend
         working-directory: frontend
+        env:
+          VITE_API_URL: https://ner-raksha-api-pratham.onrender.com
         run: npm run build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -47,3 +49,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
