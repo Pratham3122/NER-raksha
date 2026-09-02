@@ -56,13 +56,13 @@ export const MapView: React.FC = () => {
           <LayersControl.BaseLayer checked name="Dark Map (English)">
             <TileLayer
               className="dark-tiles"
-              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+              url="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png"
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | Wikimedia'
             />
           </LayersControl.BaseLayer>
           <LayersControl.BaseLayer name="Standard Map (English)">
             <TileLayer
-              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+              url="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png"
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | Wikimedia'
             />
           </LayersControl.BaseLayer>
