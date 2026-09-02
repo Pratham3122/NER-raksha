@@ -3,6 +3,8 @@ import LoadingSpinner from '@/components/ui/LoadingSpinner';
 import ErrorState from '@/components/ui/ErrorState';
 import Drawer from '@/components/ui/Drawer';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 interface Vehicle {
   id: string;
   name: string;
@@ -45,7 +47,7 @@ export default function VehiclesPage() {
 
   const fetchVehicles = async () => {
     try {
-      const res = await fetch('http://localhost:8000/api/vehicles?limit=50', { signal: AbortSignal.timeout(3000) });
+      const res = await fetch(`${API_BASE_URL}/api/vehicles?limit=50`, { signal: AbortSignal.timeout(3000) });
       if (res.ok) {
         const data = await res.json();
         if (data?.data?.length > 0) {
@@ -77,7 +79,7 @@ export default function VehiclesPage() {
   const handleSimulate = async (action: 'start' | 'pause' | 'reset') => {
     if (!selectedVehicle) return;
     try {
-      await fetch(`http://localhost:8000/api/vehicles/${selectedVehicle.id}/simulate/${action}`, {
+      await fetch(`${API_BASE_URL}/api/vehicles/${selectedVehicle.id}/simulate/${action}`, {
         method: 'POST',
         signal: AbortSignal.timeout(3000),
       });
@@ -251,3 +253,4 @@ export default function VehiclesPage() {
     </div>
   );
 }
+
