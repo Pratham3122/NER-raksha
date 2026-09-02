@@ -1,0 +1,1803 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "name": "Assam",
+      "code": "AS",
+      "lat": 26.2006,
+      "lon": 92.9376
+    },
+    {
+      "id": 2,
+      "name": "Meghalaya",
+      "code": "ML",
+      "lat": 25.467,
+      "lon": 91.3662
+    },
+    {
+      "id": 3,
+      "name": "Manipur",
+      "code": "MN",
+      "lat": 24.6637,
+      "lon": 93.9063
+    },
+    {
+      "id": 4,
+      "name": "Mizoram",
+      "code": "MZ",
+      "lat": 23.1645,
+      "lon": 92.9376
+    },
+    {
+      "id": 5,
+      "name": "Nagaland",
+      "code": "NL",
+      "lat": 26.1584,
+      "lon": 94.5624
+    },
+    {
+      "id": 6,
+      "name": "Tripura",
+      "code": "TR",
+      "lat": 23.9408,
+      "lon": 91.9882
+    },
+    {
+      "id": 7,
+      "name": "Arunachal Pradesh",
+      "code": "AR",
+      "lat": 28.218,
+      "lon": 94.7278
+    },
+    {
+      "id": 8,
+      "name": "Sikkim",
+      "code": "SK",
+      "lat": 27.533,
+      "lon": 88.5122
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "state_id": 1,
+      "name": "Kamrup",
+      "state": "Assam",
+      "lat": 26.1445,
+      "lon": 91.7362,
+      "population": 2926543
+    },
+    {
+      "id": 2,
+      "state_id": 1,
+      "name": "Dibrugarh",
+      "state": "Assam",
+      "lat": 27.4728,
+      "lon": 94.9109,
+      "population": 1327748
+    },
+    {
+      "id": 3,
+      "state_id": 1,
+      "name": "Jorhat",
+      "state": "Assam",
+      "lat": 26.7509,
+      "lon": 94.2037,
+      "population": 1092256
+    },
+    {
+      "id": 4,
+      "state_id": 1,
+      "name": "Sonitpur",
+      "state": "Assam",
+      "lat": 26.6338,
+      "lon": 92.7926,
+      "population": 1924110
+    },
+    {
+      "id": 5,
+      "state_id": 2,
+      "name": "East Khasi Hills",
+      "state": "Meghalaya",
+      "lat": 25.5788,
+      "lon": 91.8933,
+      "population": 825922
+    },
+    {
+      "id": 6,
+      "state_id": 2,
+      "name": "Ri Bhoi",
+      "state": "Meghalaya",
+      "lat": 25.8833,
+      "lon": 91.9333,
+      "population": 258380
+    },
+    {
+      "id": 7,
+      "state_id": 3,
+      "name": "Imphal West",
+      "state": "Manipur",
+      "lat": 24.817,
+      "lon": 93.9368,
+      "population": 517992
+    },
+    {
+      "id": 8,
+      "state_id": 3,
+      "name": "Senapati",
+      "state": "Manipur",
+      "lat": 25.2666,
+      "lon": 94.0166,
+      "population": 478302
+    }
+  ],
+  "roads": [
+    {
+      "id": 1,
+      "name": "NH-27 Guwahati-Dibrugarh",
+      "road_class": "national_highway",
+      "surface": "asphalt",
+      "maxspeed_kmh": 80,
+      "district_id": 2,
+      "waypoints": [
+        [
+          91.7362,
+          26.1445
+        ],
+        [
+          92.0,
+          26.2
+        ],
+        [
+          92.7926,
+          26.6338
+        ],
+        [
+          93.5,
+          26.7
+        ],
+        [
+          94.2037,
+          26.7509
+        ],
+        [
+          94.9109,
+          27.4728
+        ]
+      ],
+      "is_demo": true
+    },
+    {
+      "id": 2,
+      "name": "NH-6 Guwahati-Shillong",
+      "road_class": "national_highway",
+      "surface": "asphalt",
+      "maxspeed_kmh": 60,
+      "district_id": 2,
+      "waypoints": [
+        [
+          91.7362,
+          26.1445
+        ],
+        [
+          91.8,
+          26.0
+        ],
+        [
+          91.85,
+          25.8
+        ],
+        [
+          91.8933,
+          25.5788
+        ]
+      ],
+      "is_demo": true
+    },
+    {
+      "id": 3,
+      "name": "NH-37 Jorabat-Shillong via Byrnihat",
+      "road_class": "national_highway",
+      "surface": "asphalt",
+      "maxspeed_kmh": 60,
+      "district_id": 2,
+      "waypoints": [
+        [
+          91.82,
+          26.05
+        ],
+        [
+          91.86,
+          25.9
+        ],
+        [
+          91.9,
+          25.75
+        ],
+        [
+          91.8933,
+          25.5788
+        ]
+      ],
+      "is_demo": true
+    },
+    {
+      "id": 4,
+      "name": "NH-40 Shillong-Jowai",
+      "road_class": "national_highway",
+      "surface": "asphalt",
+      "maxspeed_kmh": 50,
+      "district_id": 8,
+      "waypoints": [
+        [
+          91.8933,
+          25.5788
+        ],
+        [
+          92.0,
+          25.45
+        ],
+        [
+          92.15,
+          25.45
+        ]
+      ],
+      "is_demo": true
+    },
+    {
+      "id": 5,
+      "name": "NH-2 Shillong-Imphal",
+      "road_class": "national_highway",
+      "surface": "asphalt",
+      "maxspeed_kmh": 60,
+      "district_id": 8,
+      "waypoints": [
+        [
+          91.8933,
+          25.5788
+        ],
+        [
+          92.5,
+          25.0
+        ],
+        [
+          93.0,
+          24.8
+        ],
+        [
+          93.9368,
+          24.817
+        ]
+      ],
+      "is_demo": true
+    },
+    {
+      "id": 6,
+      "name": "SH-5 Guwahati Ring Road",
+      "road_class": "state_highway",
+      "surface": "asphalt",
+      "maxspeed_kmh": 50,
+      "district_id": 8,
+      "waypoints": [
+        [
+          91.7362,
+          26.1445
+        ],
+        [
+          91.8,
+          26.18
+        ],
+        [
+          91.85,
+          26.14
+        ],
+        [
+          91.82,
+          26.1
+        ],
+        [
+          91.76,
+          26.12
+        ],
+        [
+          91.7362,
+          26.1445
+        ]
+      ],
+      "is_demo": true
+    },
+    {
+      "id": 7,
+      "name": "MDR Shillong-Mawsynram",
+      "road_class": "major_district_road",
+      "surface": "gravel",
+      "maxspeed_kmh": 30,
+      "district_id": 7,
+      "waypoints": [
+        [
+          91.8933,
+          25.5788
+        ],
+        [
+          91.75,
+          25.45
+        ],
+        [
+          91.5826,
+          25.2981
+        ]
+      ],
+      "is_demo": true
+    },
+    {
+      "id": 8,
+      "name": "NH-229 Kohima Road",
+      "road_class": "national_highway",
+      "surface": "asphalt",
+      "maxspeed_kmh": 50,
+      "district_id": 4,
+      "waypoints": [
+        [
+          93.9368,
+          24.817
+        ],
+        [
+          94.1,
+          25.0
+        ],
+        [
+          94.15,
+          25.7
+        ],
+        [
+          94.1056,
+          25.6751
+        ]
+      ],
+      "is_demo": true
+    }
+  ],
+  "road_segments": [
+    {
+      "id": 1,
+      "road_id": 1,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          91.7362,
+          26.1445
+        ],
+        [
+          91.8681,
+          26.17225
+        ],
+        [
+          92.0,
+          26.2
+        ]
+      ],
+      "length_m": 27039.41283807842,
+      "status": "OPEN",
+      "risk_score": 18.1,
+      "risk_level": "LOW",
+      "condition": "POOR",
+      "speed_kmh": 64.0,
+      "weather_risk": 23.8,
+      "terrain_risk": 15.0,
+      "incident_risk": 29.5,
+      "historical_risk": 37.1,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:49:34.551428+00:00"
+    },
+    {
+      "id": 2,
+      "road_id": 1,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          92.0,
+          26.2
+        ],
+        [
+          92.3963,
+          26.4169
+        ],
+        [
+          92.7926,
+          26.6338
+        ]
+      ],
+      "length_m": 92502.24716461489,
+      "status": "OPEN",
+      "risk_score": 9.4,
+      "risk_level": "LOW",
+      "condition": "POOR",
+      "speed_kmh": 64.0,
+      "weather_risk": 11.6,
+      "terrain_risk": 9.2,
+      "incident_risk": 9.3,
+      "historical_risk": 34.1,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:35:34.551428+00:00"
+    },
+    {
+      "id": 3,
+      "road_id": 1,
+      "sequence": 2,
+      "geom_coords": [
+        [
+          92.7926,
+          26.6338
+        ],
+        [
+          93.1463,
+          26.6669
+        ],
+        [
+          93.5,
+          26.7
+        ]
+      ],
+      "length_m": 70676.65100010224,
+      "status": "AT_RISK",
+      "risk_score": 28.9,
+      "risk_level": "MEDIUM",
+      "condition": "GOOD",
+      "speed_kmh": 64.0,
+      "weather_risk": 31.0,
+      "terrain_risk": 25.2,
+      "incident_risk": 11.1,
+      "historical_risk": 44.8,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:31:34.551428+00:00"
+    },
+    {
+      "id": 4,
+      "road_id": 1,
+      "sequence": 3,
+      "geom_coords": [
+        [
+          93.5,
+          26.7
+        ],
+        [
+          93.85185,
+          26.725450000000002
+        ],
+        [
+          94.2037,
+          26.7509
+        ]
+      ],
+      "length_m": 70117.49274798269,
+      "status": "OPEN",
+      "risk_score": 16.0,
+      "risk_level": "LOW",
+      "condition": "FAIR",
+      "speed_kmh": 64.0,
+      "weather_risk": 23.9,
+      "terrain_risk": 14.7,
+      "incident_risk": 30.5,
+      "historical_risk": 14.1,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:48:34.551428+00:00"
+    },
+    {
+      "id": 5,
+      "road_id": 1,
+      "sequence": 4,
+      "geom_coords": [
+        [
+          94.2037,
+          26.7509
+        ],
+        [
+          94.5573,
+          27.11185
+        ],
+        [
+          94.9109,
+          27.4728
+        ]
+      ],
+      "length_m": 106502.98556867089,
+      "status": "OPEN",
+      "risk_score": 11.2,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 64.0,
+      "weather_risk": 27.2,
+      "terrain_risk": 16.9,
+      "incident_risk": 1.7,
+      "historical_risk": 28.4,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:12:34.551428+00:00"
+    },
+    {
+      "id": 6,
+      "road_id": 2,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          91.7362,
+          26.1445
+        ],
+        [
+          91.7681,
+          26.07225
+        ],
+        [
+          91.8,
+          26.0
+        ]
+      ],
+      "length_m": 17285.152021638067,
+      "status": "OPEN",
+      "risk_score": 27.1,
+      "risk_level": "MEDIUM",
+      "condition": "VERY_POOR",
+      "speed_kmh": 48.0,
+      "weather_risk": 51.5,
+      "terrain_risk": 32.8,
+      "incident_risk": 34.5,
+      "historical_risk": 33.1,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:52:34.551428+00:00"
+    },
+    {
+      "id": 7,
+      "road_id": 2,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          91.8,
+          26.0
+        ],
+        [
+          91.82499999999999,
+          25.9
+        ],
+        [
+          91.85,
+          25.8
+        ]
+      ],
+      "length_m": 22794.41942974508,
+      "status": "OPEN",
+      "risk_score": 9.7,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 48.0,
+      "weather_risk": 21.4,
+      "terrain_risk": 18.0,
+      "incident_risk": 3.2,
+      "historical_risk": 19.3,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:12:34.551428+00:00"
+    },
+    {
+      "id": 8,
+      "road_id": 2,
+      "sequence": 2,
+      "geom_coords": [
+        [
+          91.85,
+          25.8
+        ],
+        [
+          91.87164999999999,
+          25.6894
+        ],
+        [
+          91.8933,
+          25.5788
+        ]
+      ],
+      "length_m": 24976.075034027624,
+      "status": "OPEN",
+      "risk_score": 17.1,
+      "risk_level": "LOW",
+      "condition": "FAIR",
+      "speed_kmh": 48.0,
+      "weather_risk": 41.8,
+      "terrain_risk": 21.4,
+      "incident_risk": 14.8,
+      "historical_risk": 18.4,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:31:34.551428+00:00"
+    },
+    {
+      "id": 9,
+      "road_id": 3,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          91.82,
+          26.05
+        ],
+        [
+          91.84,
+          25.975
+        ],
+        [
+          91.86,
+          25.9
+        ]
+      ],
+      "length_m": 17151.82296886513,
+      "status": "OPEN",
+      "risk_score": 13.5,
+      "risk_level": "LOW",
+      "condition": "VERY_POOR",
+      "speed_kmh": 48.0,
+      "weather_risk": 18.6,
+      "terrain_risk": 37.8,
+      "incident_risk": 6.5,
+      "historical_risk": 25.2,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:32:34.551428+00:00"
+    },
+    {
+      "id": 10,
+      "road_id": 3,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          91.86,
+          25.9
+        ],
+        [
+          91.88,
+          25.825
+        ],
+        [
+          91.9,
+          25.75
+        ]
+      ],
+      "length_m": 17153.009411461888,
+      "status": "OPEN",
+      "risk_score": 25.0,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 48.0,
+      "weather_risk": 44.2,
+      "terrain_risk": 42.9,
+      "incident_risk": 31.0,
+      "historical_risk": 19.2,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:17:34.551428+00:00"
+    },
+    {
+      "id": 11,
+      "road_id": 3,
+      "sequence": 2,
+      "geom_coords": [
+        [
+          91.9,
+          25.75
+        ],
+        [
+          91.89665,
+          25.6644
+        ],
+        [
+          91.8933,
+          25.5788
+        ]
+      ],
+      "length_m": 19048.411356877048,
+      "status": "OPEN",
+      "risk_score": 20.8,
+      "risk_level": "LOW",
+      "condition": "FAIR",
+      "speed_kmh": 48.0,
+      "weather_risk": 23.4,
+      "terrain_risk": 14.5,
+      "incident_risk": 37.7,
+      "historical_risk": 45.1,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:33:34.551428+00:00"
+    },
+    {
+      "id": 12,
+      "road_id": 4,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          91.8933,
+          25.5788
+        ],
+        [
+          91.94665,
+          25.514400000000002
+        ],
+        [
+          92.0,
+          25.45
+        ]
+      ],
+      "length_m": 17882.006178362124,
+      "status": "OPEN",
+      "risk_score": 19.6,
+      "risk_level": "LOW",
+      "condition": "POOR",
+      "speed_kmh": 40.0,
+      "weather_risk": 55.7,
+      "terrain_risk": 25.6,
+      "incident_risk": 10.6,
+      "historical_risk": 19.9,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:52:34.551428+00:00"
+    },
+    {
+      "id": 13,
+      "road_id": 4,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          92.0,
+          25.45
+        ],
+        [
+          92.075,
+          25.45
+        ],
+        [
+          92.15,
+          25.45
+        ]
+      ],
+      "length_m": 15060.695398636912,
+      "status": "OPEN",
+      "risk_score": 20.5,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 40.0,
+      "weather_risk": 39.2,
+      "terrain_risk": 45.4,
+      "incident_risk": 16.0,
+      "historical_risk": 18.8,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:55:34.551428+00:00"
+    },
+    {
+      "id": 14,
+      "road_id": 5,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          91.8933,
+          25.5788
+        ],
+        [
+          92.19665,
+          25.2894
+        ],
+        [
+          92.5,
+          25.0
+        ]
+      ],
+      "length_m": 88671.73648076433,
+      "status": "OPEN",
+      "risk_score": 14.4,
+      "risk_level": "LOW",
+      "condition": "FAIR",
+      "speed_kmh": 48.0,
+      "weather_risk": 12.4,
+      "terrain_risk": 9.9,
+      "incident_risk": 25.1,
+      "historical_risk": 41.7,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:44:34.551428+00:00"
+    },
+    {
+      "id": 15,
+      "road_id": 5,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          92.5,
+          25.0
+        ],
+        [
+          92.75,
+          24.9
+        ],
+        [
+          93.0,
+          24.8
+        ]
+      ],
+      "length_m": 55115.191425572135,
+      "status": "OPEN",
+      "risk_score": 23.5,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 48.0,
+      "weather_risk": 29.1,
+      "terrain_risk": 49.8,
+      "incident_risk": 21.2,
+      "historical_risk": 48.8,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:33:34.551428+00:00"
+    },
+    {
+      "id": 16,
+      "road_id": 5,
+      "sequence": 2,
+      "geom_coords": [
+        [
+          93.0,
+          24.8
+        ],
+        [
+          93.4684,
+          24.808500000000002
+        ],
+        [
+          93.9368,
+          24.817
+        ]
+      ],
+      "length_m": 94573.05082746492,
+      "status": "AT_RISK",
+      "risk_score": 29.4,
+      "risk_level": "MEDIUM",
+      "condition": "FAIR",
+      "speed_kmh": 48.0,
+      "weather_risk": 36.8,
+      "terrain_risk": 17.0,
+      "incident_risk": 25.6,
+      "historical_risk": 14.5,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:40:34.551428+00:00"
+    },
+    {
+      "id": 17,
+      "road_id": 6,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          91.7362,
+          26.1445
+        ],
+        [
+          91.7681,
+          26.16225
+        ],
+        [
+          91.8,
+          26.18
+        ]
+      ],
+      "length_m": 7491.743740007414,
+      "status": "OPEN",
+      "risk_score": 28.6,
+      "risk_level": "MEDIUM",
+      "condition": "POOR",
+      "speed_kmh": 40.0,
+      "weather_risk": 46.1,
+      "terrain_risk": 37.4,
+      "incident_risk": 38.9,
+      "historical_risk": 40.5,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:47:34.551428+00:00"
+    },
+    {
+      "id": 18,
+      "road_id": 6,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          91.8,
+          26.18
+        ],
+        [
+          91.82499999999999,
+          26.16
+        ],
+        [
+          91.85,
+          26.14
+        ]
+      ],
+      "length_m": 6684.714341091597,
+      "status": "SEVERELY_DISRUPTED",
+      "risk_score": 35.6,
+      "risk_level": "MEDIUM",
+      "condition": "POOR",
+      "speed_kmh": 25.0,
+      "weather_risk": 41.9,
+      "terrain_risk": 32.4,
+      "incident_risk": 6.1,
+      "historical_risk": 40.5,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:21:34.551428+00:00"
+    },
+    {
+      "id": 19,
+      "road_id": 6,
+      "sequence": 2,
+      "geom_coords": [
+        [
+          91.85,
+          26.14
+        ],
+        [
+          91.835,
+          26.12
+        ],
+        [
+          91.82,
+          26.1
+        ]
+      ],
+      "length_m": 5362.270647738549,
+      "status": "SEVERELY_DISRUPTED",
+      "risk_score": 36.1,
+      "risk_level": "MEDIUM",
+      "condition": "FAIR",
+      "speed_kmh": 25.0,
+      "weather_risk": 39.9,
+      "terrain_risk": 27.0,
+      "incident_risk": 4.5,
+      "historical_risk": 24.5,
+      "is_demo": true,
+      "last_updated": "2026-09-02T19:30:34.551428+00:00"
+    },
+    {
+      "id": 20,
+      "road_id": 6,
+      "sequence": 3,
+      "geom_coords": [
+        [
+          91.82,
+          26.1
+        ],
+        [
+          91.78999999999999,
+          26.11
+        ],
+        [
+          91.76,
+          26.12
+        ]
+      ],
+      "length_m": 6390.309704927422,
+      "status": "OPEN",
+      "risk_score": 21.7,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 40.0,
+      "weather_risk": 53.9,
+      "terrain_risk": 47.6,
+      "incident_risk": 3.4,
+      "historical_risk": 29.4,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:23:34.551428+00:00"
+    },
+    {
+      "id": 21,
+      "road_id": 6,
+      "sequence": 4,
+      "geom_coords": [
+        [
+          91.76,
+          26.12
+        ],
+        [
+          91.7481,
+          26.13225
+        ],
+        [
+          91.7362,
+          26.1445
+        ]
+      ],
+      "length_m": 3614.7852566674565,
+      "status": "OPEN",
+      "risk_score": 19.6,
+      "risk_level": "LOW",
+      "condition": "POOR",
+      "speed_kmh": 40.0,
+      "weather_risk": 16.3,
+      "terrain_risk": 34.7,
+      "incident_risk": 37.9,
+      "historical_risk": 16.6,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:09:34.551428+00:00"
+    },
+    {
+      "id": 22,
+      "road_id": 7,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          91.8933,
+          25.5788
+        ],
+        [
+          91.82165,
+          25.514400000000002
+        ],
+        [
+          91.75,
+          25.45
+        ]
+      ],
+      "length_m": 20295.548392220586,
+      "status": "BLOCKED",
+      "risk_score": 52.8,
+      "risk_level": "HIGH",
+      "condition": "VERY_POOR",
+      "speed_kmh": 15.0,
+      "weather_risk": 47.8,
+      "terrain_risk": 36.0,
+      "incident_risk": 28.5,
+      "historical_risk": 26.0,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:37:34.551428+00:00"
+    },
+    {
+      "id": 23,
+      "road_id": 7,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          91.75,
+          25.45
+        ],
+        [
+          91.6663,
+          25.37405
+        ],
+        [
+          91.5826,
+          25.2981
+        ]
+      ],
+      "length_m": 23835.79364109109,
+      "status": "OPEN",
+      "risk_score": 18.5,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 24.0,
+      "weather_risk": 55.0,
+      "terrain_risk": 25.3,
+      "incident_risk": 9.9,
+      "historical_risk": 12.6,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:45:34.551428+00:00"
+    },
+    {
+      "id": 24,
+      "road_id": 8,
+      "sequence": 0,
+      "geom_coords": [
+        [
+          93.9368,
+          24.817
+        ],
+        [
+          94.0184,
+          24.9085
+        ],
+        [
+          94.1,
+          25.0
+        ]
+      ],
+      "length_m": 26171.871683050245,
+      "status": "OPEN",
+      "risk_score": 9.5,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 40.0,
+      "weather_risk": 10.4,
+      "terrain_risk": 36.9,
+      "incident_risk": 2.4,
+      "historical_risk": 12.7,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:10:34.551428+00:00"
+    },
+    {
+      "id": 25,
+      "road_id": 8,
+      "sequence": 1,
+      "geom_coords": [
+        [
+          94.1,
+          25.0
+        ],
+        [
+          94.125,
+          25.35
+        ],
+        [
+          94.15,
+          25.7
+        ]
+      ],
+      "length_m": 77998.44069405268,
+      "status": "OPEN",
+      "risk_score": 17.8,
+      "risk_level": "LOW",
+      "condition": "VERY_POOR",
+      "speed_kmh": 40.0,
+      "weather_risk": 35.7,
+      "terrain_risk": 17.5,
+      "incident_risk": 19.4,
+      "historical_risk": 31.6,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:08:34.551428+00:00"
+    },
+    {
+      "id": 26,
+      "road_id": 8,
+      "sequence": 2,
+      "geom_coords": [
+        [
+          94.15,
+          25.7
+        ],
+        [
+          94.12780000000001,
+          25.68755
+        ],
+        [
+          94.1056,
+          25.6751
+        ]
+      ],
+      "length_m": 5240.302385545173,
+      "status": "OPEN",
+      "risk_score": 22.6,
+      "risk_level": "LOW",
+      "condition": "GOOD",
+      "speed_kmh": 40.0,
+      "weather_risk": 33.6,
+      "terrain_risk": 40.3,
+      "incident_risk": 32.3,
+      "historical_risk": 17.6,
+      "is_demo": true,
+      "last_updated": "2026-09-02T18:36:34.551428+00:00"
+    }
+  ],
+  "weather": [
+    {
+      "district_id": 1,
+      "lat": 26.1445,
+      "lon": 91.7362,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 30.9,
+      "temperature_c": 23.1,
+      "humidity_pct": 81.7,
+      "wind_speed_kmh": 23.2,
+      "source": "open_meteo",
+      "is_demo": true
+    },
+    {
+      "district_id": 2,
+      "lat": 27.4728,
+      "lon": 94.9109,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 38.2,
+      "temperature_c": 29.8,
+      "humidity_pct": 72.5,
+      "wind_speed_kmh": 15.1,
+      "source": "open_meteo",
+      "is_demo": true
+    },
+    {
+      "district_id": 3,
+      "lat": 26.7509,
+      "lon": 94.2037,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 28.2,
+      "temperature_c": 28.3,
+      "humidity_pct": 76.2,
+      "wind_speed_kmh": 9.8,
+      "source": "open_meteo",
+      "is_demo": true
+    },
+    {
+      "district_id": 4,
+      "lat": 26.6338,
+      "lon": 92.7926,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 31.5,
+      "temperature_c": 23.1,
+      "humidity_pct": 77.0,
+      "wind_speed_kmh": 11.2,
+      "source": "open_meteo",
+      "is_demo": true
+    },
+    {
+      "district_id": 5,
+      "lat": 25.5788,
+      "lon": 91.8933,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 62.7,
+      "temperature_c": 23.3,
+      "humidity_pct": 91.5,
+      "wind_speed_kmh": 18.8,
+      "source": "open_meteo",
+      "is_demo": true
+    },
+    {
+      "district_id": 6,
+      "lat": 25.8833,
+      "lon": 91.9333,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 36.5,
+      "temperature_c": 30.0,
+      "humidity_pct": 90.9,
+      "wind_speed_kmh": 29.2,
+      "source": "open_meteo",
+      "is_demo": true
+    },
+    {
+      "district_id": 7,
+      "lat": 24.817,
+      "lon": 93.9368,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 37.8,
+      "temperature_c": 28.2,
+      "humidity_pct": 74.2,
+      "wind_speed_kmh": 17.1,
+      "source": "open_meteo",
+      "is_demo": true
+    },
+    {
+      "district_id": 8,
+      "lat": 25.2666,
+      "lon": 94.0166,
+      "observed_at": "2026-09-02T20:05:34.551428+00:00",
+      "rainfall_mm": 16.4,
+      "temperature_c": 22.8,
+      "humidity_pct": 71.5,
+      "wind_speed_kmh": 14.5,
+      "source": "open_meteo",
+      "is_demo": true
+    }
+  ],
+  "terrain": [
+    {
+      "district_id": 1,
+      "lat": 26.1445,
+      "lon": 91.7362,
+      "elevation_m": 197.8,
+      "slope_pct": 5.4,
+      "terrain_class": "PLAINS",
+      "source": "NASA_SRTM"
+    },
+    {
+      "district_id": 2,
+      "lat": 27.4728,
+      "lon": 94.9109,
+      "elevation_m": 167.6,
+      "slope_pct": 7.9,
+      "terrain_class": "PLAINS",
+      "source": "NASA_SRTM"
+    },
+    {
+      "district_id": 3,
+      "lat": 26.7509,
+      "lon": 94.2037,
+      "elevation_m": 113.5,
+      "slope_pct": 14.4,
+      "terrain_class": "PLAINS",
+      "source": "NASA_SRTM"
+    },
+    {
+      "district_id": 4,
+      "lat": 26.6338,
+      "lon": 92.7926,
+      "elevation_m": 199.3,
+      "slope_pct": 9.2,
+      "terrain_class": "PLAINS",
+      "source": "NASA_SRTM"
+    },
+    {
+      "district_id": 5,
+      "lat": 25.5788,
+      "lon": 91.8933,
+      "elevation_m": 1218.4,
+      "slope_pct": 23.9,
+      "terrain_class": "HILLY",
+      "source": "NASA_SRTM"
+    },
+    {
+      "district_id": 6,
+      "lat": 25.8833,
+      "lon": 91.9333,
+      "elevation_m": 796.7,
+      "slope_pct": 44.2,
+      "terrain_class": "HILLY",
+      "source": "NASA_SRTM"
+    },
+    {
+      "district_id": 7,
+      "lat": 24.817,
+      "lon": 93.9368,
+      "elevation_m": 1079.2,
+      "slope_pct": 33.6,
+      "terrain_class": "HILLY",
+      "source": "NASA_SRTM"
+    },
+    {
+      "district_id": 8,
+      "lat": 25.2666,
+      "lon": 94.0166,
+      "elevation_m": 1248.0,
+      "slope_pct": 21.4,
+      "terrain_class": "HILLY",
+      "source": "NASA_SRTM"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "b7d9a99a-4033-4bf0-92d8-fa32eb36643f",
+      "type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "lat": 25.8,
+      "lon": 91.83,
+      "title": "Landslide on NH-6 km 45",
+      "desc": "Major landslide blocking NH-6. Road completely blocked.",
+      "status": "RESOLVED",
+      "reporter_name": "Officer Das",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-02T16:05:34.551428+00:00"
+    },
+    {
+      "id": "98e97bfb-7aa2-4438-b73b-e4eb37b87a62",
+      "type": "FLOOD",
+      "severity": "HIGH",
+      "lat": 26.0,
+      "lon": 91.81,
+      "title": "Flood waters on NH-6 approach",
+      "desc": "Water level rising on road. Reduced to single lane.",
+      "status": "PENDING",
+      "reporter_name": "Officer Das",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-02T15:05:34.551428+00:00"
+    },
+    {
+      "id": "15ab9b39-28a5-4ad7-80f0-4b6d677f1419",
+      "type": "ROAD_DAMAGE",
+      "severity": "MEDIUM",
+      "lat": 25.95,
+      "lon": 91.82,
+      "title": "Road surface erosion near Jorabat",
+      "desc": "Heavy rainfall caused surface erosion. Passable with caution.",
+      "status": "PENDING",
+      "reporter_name": "Officer Das",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-01T18:05:34.551428+00:00"
+    },
+    {
+      "id": "76cbc2c8-d6d0-48f0-9a26-d50fc0897503",
+      "type": "ACCIDENT",
+      "severity": "HIGH",
+      "lat": 26.6,
+      "lon": 92.5,
+      "title": "Truck accident on NH-27",
+      "desc": "Truck overturned. One lane blocked. Emergency services on site.",
+      "status": "PENDING",
+      "reporter_name": "Officer Das",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-01T06:05:34.551428+00:00"
+    },
+    {
+      "id": "b696c068-5837-481d-9d27-e1850dc99b17",
+      "type": "FLOOD",
+      "severity": "CRITICAL",
+      "lat": 26.7,
+      "lon": 94.0,
+      "title": "Bridge underpass flooded on NH-27",
+      "desc": "Flash flood. Bridge approach submerged. No through traffic.",
+      "status": "PENDING",
+      "reporter_name": "Officer Sharma",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-01T17:05:34.551428+00:00"
+    },
+    {
+      "id": "271abd8a-9a86-4b14-91da-05dffe2e0e77",
+      "type": "LANDSLIDE",
+      "severity": "HIGH",
+      "lat": 25.4,
+      "lon": 91.7,
+      "title": "Debris fall near Mawsynram road",
+      "desc": "Rock debris on MDR. Clearance in progress.",
+      "status": "VERIFIED",
+      "reporter_name": "Officer Singh",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-02T06:05:34.551428+00:00"
+    },
+    {
+      "id": "cef1fa4b-3ca0-45ff-a227-739be29b9eec",
+      "type": "ROAD_DAMAGE",
+      "severity": "LOW",
+      "lat": 25.55,
+      "lon": 91.92,
+      "title": "Pothole damage near Shillong",
+      "desc": "Multiple potholes. Slow traffic, vehicles advised caution.",
+      "status": "VERIFIED",
+      "reporter_name": "Officer Das",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-02T03:05:34.551428+00:00"
+    },
+    {
+      "id": "abfbff65-1df4-4b86-8ecd-14c46f0dd86e",
+      "type": "CLOSURE",
+      "severity": "HIGH",
+      "lat": 24.9,
+      "lon": 93.8,
+      "title": "Road closure for repairs near Imphal",
+      "desc": "Scheduled maintenance. Alternate route recommended.",
+      "status": "RESOLVED",
+      "reporter_name": "Officer Das",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-01T01:05:34.551428+00:00"
+    },
+    {
+      "id": "af7a3651-7717-46a2-aaa4-23554ea2497f",
+      "type": "BRIDGE_DAMAGE",
+      "severity": "CRITICAL",
+      "lat": 26.3,
+      "lon": 92.1,
+      "title": "Bridge structural damage on NH-27",
+      "desc": "Structural inspection required. Weight limit enforced.",
+      "status": "VERIFIED",
+      "reporter_name": "Field Team Alpha",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-01T23:05:34.551428+00:00"
+    },
+    {
+      "id": "865b55fe-a68b-41f5-81ce-45a3e52a6062",
+      "type": "TRAFFIC",
+      "severity": "MEDIUM",
+      "lat": 26.15,
+      "lon": 91.75,
+      "title": "Heavy congestion near Guwahati bypass",
+      "desc": "Peak hour congestion. 45-minute delay expected.",
+      "status": "PENDING",
+      "reporter_name": "Officer Sharma",
+      "source": "FIELD_REPORT",
+      "is_demo": true,
+      "created_at": "2026-09-01T14:05:34.551428+00:00"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "MED-101",
+      "name": "Medical Unit Alpha",
+      "type": "AMBULANCE",
+      "cargo": "Critical Medical Supplies",
+      "priority": "CRITICAL",
+      "lon": 91.7362,
+      "lat": 26.1445,
+      "speed_kmh": 37.26955532958557,
+      "status": "MOVING",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "MED-102",
+      "name": "Medical Unit Beta",
+      "type": "VAN",
+      "cargo": "Vaccines and medicines",
+      "priority": "CRITICAL",
+      "lon": 94.9109,
+      "lat": 27.4728,
+      "speed_kmh": 4.39564326597798,
+      "status": "MOVING",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "RSC-201",
+      "name": "Rescue Team Delta",
+      "type": "RESCUE",
+      "cargo": "Rescue equipment",
+      "priority": "CRITICAL",
+      "lon": 93.9368,
+      "lat": 24.817,
+      "speed_kmh": 30.353081642925922,
+      "status": "MOVING",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "FD-301",
+      "name": "Food Convoy Alpha",
+      "type": "TRUCK",
+      "cargo": "Emergency food supplies",
+      "priority": "IMPORTANT",
+      "lon": 91.8933,
+      "lat": 25.5788,
+      "speed_kmh": 55.995562679622545,
+      "status": "MOVING",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "FD-302",
+      "name": "Food Convoy Beta",
+      "type": "TRUCK",
+      "cargo": "Rice and grain",
+      "priority": "IMPORTANT",
+      "lon": 94.2037,
+      "lat": 26.7509,
+      "speed_kmh": 52.75621454907257,
+      "status": "STOPPED",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "LOG-401",
+      "name": "Logistics Unit 1",
+      "type": "TRUCK",
+      "cargo": "General supplies",
+      "priority": "NORMAL",
+      "lon": 91.72,
+      "lat": 26.13,
+      "speed_kmh": 17.099243472999405,
+      "status": "DELAYED",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "LOG-402",
+      "name": "Logistics Unit 2",
+      "type": "VAN",
+      "cargo": "Communications equipment",
+      "priority": "IMPORTANT",
+      "lon": 91.8,
+      "lat": 26.05,
+      "speed_kmh": 50.02469727838842,
+      "status": "STOPPED",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "PER-501",
+      "name": "Personnel Carrier 1",
+      "type": "SUV",
+      "cargo": "Field officers",
+      "priority": "IMPORTANT",
+      "lon": 92.5,
+      "lat": 25.0,
+      "speed_kmh": 36.700665943557006,
+      "status": "MOVING",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "HEL-601",
+      "name": "Air Rescue Unit",
+      "type": "HELICOPTER",
+      "cargo": "Aerial rescue",
+      "priority": "CRITICAL",
+      "lon": 91.8,
+      "lat": 26.12,
+      "speed_kmh": 120,
+      "status": "STOPPED",
+      "is_demo": true,
+      "is_simulated": true
+    },
+    {
+      "id": "WTR-701",
+      "name": "Water Tanker 1",
+      "type": "TRUCK",
+      "cargo": "Drinking water",
+      "priority": "IMPORTANT",
+      "lon": 92.0,
+      "lat": 26.5,
+      "speed_kmh": 55.905362366164645,
+      "status": "MOVING",
+      "is_demo": true,
+      "is_simulated": true
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "944609e8-901d-444b-a7c3-2bf5797e162c",
+      "vehicle_id": "MED-101",
+      "cargo": "Critical Medical Supplies - Dialysis equipment + blood",
+      "priority": "CRITICAL",
+      "origin_name": "Guwahati Medical College",
+      "origin": [
+        91.7362,
+        26.1445
+      ],
+      "destination_name": "Shillong Civil Hospital",
+      "destination": [
+        91.8933,
+        25.5788
+      ],
+      "delay_min": 18,
+      "status": "IN_TRANSIT",
+      "scheduled_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "estimated_arrival": "2026-09-02T22:23:34.551428+00:00",
+      "is_demo": true
+    },
+    {
+      "id": "ac7c0860-03e7-4223-aa12-a8ca48873e9d",
+      "vehicle_id": "MED-102",
+      "cargo": "COVID Vaccines - Temperature controlled",
+      "priority": "CRITICAL",
+      "origin_name": "Dibrugarh Health Depot",
+      "origin": [
+        94.9109,
+        27.4728
+      ],
+      "destination_name": "Jorhat District Hospital",
+      "destination": [
+        94.2037,
+        26.7509
+      ],
+      "delay_min": 0,
+      "status": "IN_TRANSIT",
+      "scheduled_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "estimated_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "is_demo": true
+    },
+    {
+      "id": "3638abff-eca9-441d-8590-a1c9cab775b8",
+      "vehicle_id": "FD-301",
+      "cargo": "Emergency food supplies - 5 MT rice",
+      "priority": "IMPORTANT",
+      "origin_name": "Guwahati FCI Warehouse",
+      "origin": [
+        91.7,
+        26.15
+      ],
+      "destination_name": "Senapati Relief Camp",
+      "destination": [
+        94.0166,
+        25.2666
+      ],
+      "delay_min": 45,
+      "status": "DELAYED",
+      "scheduled_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "estimated_arrival": "2026-09-02T22:50:34.551428+00:00",
+      "is_demo": true
+    },
+    {
+      "id": "7cd60bcc-9fd3-4f3f-9f9e-30bd8b406f51",
+      "vehicle_id": "RSC-201",
+      "cargo": "Search and rescue team + equipment",
+      "priority": "CRITICAL",
+      "origin_name": "NDRF Base Guwahati",
+      "origin": [
+        91.76,
+        26.13
+      ],
+      "destination_name": "NH-6 km 45 Incident Site",
+      "destination": [
+        91.83,
+        25.8
+      ],
+      "delay_min": 0,
+      "status": "IN_TRANSIT",
+      "scheduled_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "estimated_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "is_demo": true
+    },
+    {
+      "id": "4c676488-51ee-46ad-9f9e-8b315e527532",
+      "vehicle_id": "FD-302",
+      "cargo": "Emergency grain supply",
+      "priority": "IMPORTANT",
+      "origin_name": "Jorhat Depot",
+      "origin": [
+        94.2037,
+        26.7509
+      ],
+      "destination_name": "Dibrugarh Relief Center",
+      "destination": [
+        94.9109,
+        27.4728
+      ],
+      "delay_min": 0,
+      "status": "PLANNED",
+      "scheduled_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "estimated_arrival": "2026-09-02T22:05:34.551428+00:00",
+      "is_demo": true
+    }
+  ],
+  "data_sources": [
+    {
+      "name": "OpenStreetMap",
+      "dataset": "ROAD NETWORK",
+      "url": "https://www.openstreetmap.org",
+      "status": "AVAILABLE",
+      "mode": "DEMO",
+      "coverage": "Northeast India",
+      "refresh_interval": "Weekly",
+      "notes": "Road geometry via Overpass API"
+    },
+    {
+      "name": "Open-Meteo",
+      "dataset": "WEATHER",
+      "url": "https://open-meteo.com",
+      "status": "AVAILABLE",
+      "mode": "LIVE",
+      "coverage": "Northeast India",
+      "refresh_interval": "Hourly",
+      "notes": "Free API, no key required"
+    },
+    {
+      "name": "NASA SRTM",
+      "dataset": "ELEVATION / TERRAIN",
+      "url": "https://srtm.csi.cgiar.org",
+      "status": "AVAILABLE",
+      "mode": "DEMO",
+      "coverage": "Northeast India",
+      "refresh_interval": "Static",
+      "notes": "Public domain 30m DEM"
+    },
+    {
+      "name": "GADM",
+      "dataset": "ADMINISTRATIVE BOUNDARIES",
+      "url": "https://gadm.org",
+      "status": "AVAILABLE",
+      "mode": "DEMO",
+      "coverage": "India states/districts",
+      "refresh_interval": "Annual",
+      "notes": "CC-BY-NC"
+    },
+    {
+      "name": "OSRM",
+      "dataset": "ROUTING ENGINE",
+      "url": "http://router.project-osrm.org",
+      "status": "AVAILABLE",
+      "mode": "DEMO",
+      "coverage": "Global (OSM)",
+      "refresh_interval": "Real-time",
+      "notes": "Demo server only"
+    },
+    {
+      "name": "GDACS",
+      "dataset": "DISASTER ALERTS",
+      "url": "https://www.gdacs.org",
+      "status": "AVAILABLE",
+      "mode": "LIVE",
+      "coverage": "Global",
+      "refresh_interval": "Hourly",
+      "notes": "Free REST API"
+    },
+    {
+      "name": "Demo Data Pipeline",
+      "dataset": "INCIDENTS + VEHICLES",
+      "url": null,
+      "status": "AVAILABLE",
+      "mode": "DEMO",
+      "coverage": "Northeast India",
+      "refresh_interval": "On demand",
+      "notes": "SYNTHETIC DATA - labeled clearly"
+    },
+    {
+      "name": "ML Model (scikit-learn)",
+      "dataset": "RISK PREDICTIONS",
+      "url": null,
+      "status": "AVAILABLE",
+      "mode": "DEMO",
+      "coverage": "Northeast India",
+      "refresh_interval": "Per request",
+      "notes": "PROTOTYPE MODEL | SYNTHETIC DATA"
+    }
+  ]
+}

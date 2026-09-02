@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  db:
+    image: postgis/postgis:15-3.4
+    container_name: ner_raksha_db
+    environment:
+      POSTGRES_DB: ner_raksha
+      POSTGRES_USER: ner_user
+      POSTGRES_PASSWORD: ner_secure_2024
+    ports:
+      - "5432:5432"
+    volumes:
+      - ner_pgdata:/var/lib/postgresql/data
+      - ./backend/migrations:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ner_user -d ner_raksha"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  ner_pgdata:

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-brand-bg text-brand-text antialiased;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  .transition-global {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-border rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-brand-muted;
+}
+
+/* Operational Panels Scrollbar (Slimmer) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Leaflet Map Fixes */
+.leaflet-container {
+  font-family: 'Inter', system-ui, sans-serif !important;
+  background-color: #1E293B !important; /* matches brand-surface */
+}
+
+/* Override map popups for dark mode */
+.leaflet-popup-content-wrapper, 
+.leaflet-popup-tip {
+  @apply bg-brand-surface text-brand-text border border-brand-border shadow-lg;
+}
+
+/* Reset any default focus outlines for a cleaner look, use custom ones where needed */
+*:focus-visible {
+  @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-brand-bg;
+}
+
+.dark-tiles { filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7); }
+

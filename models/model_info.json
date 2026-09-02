@@ -1,0 +1,24 @@
+{
+  "algorithm": "Random Forest",
+  "version": "1.0.0",
+  "metrics": {
+    "accuracy": 0.7766666666666666,
+    "precision": 0.8091603053435115,
+    "recall": 0.7162162162162162,
+    "f1": 0.7598566308243727,
+    "roc_auc": 0.8617087482219061,
+    "pr_auc": 0.82543807434657
+  },
+  "feature_names": [
+    "rainfall_mm",
+    "slope_pct",
+    "incident_count_5km",
+    "road_status_score",
+    "is_poor_condition",
+    "historical_disruption_rate"
+  ],
+  "training_samples": 1200,
+  "test_samples": 300,
+  "note": "PROTOTYPE MODEL | SYNTHETIC DATA",
+  "trained_at": "2026-09-02T20:05:09.137170+00:00"
+}
