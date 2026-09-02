@@ -111,7 +111,7 @@ export default function CommandCenter() {
       </div>
 
       {/* Main Area */}
-      <div className="flex-1 flex flex-col lg:flex-row gap-4 min-h-0">
+      <div className="flex-none lg:flex-1 flex flex-col lg:flex-row gap-4 min-h-[420px] lg:min-h-0">
 
         {/* Live Map */}
         <div className="flex-1 bg-[#1E293B] rounded border border-slate-800 overflow-hidden relative flex flex-col">
