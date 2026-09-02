@@ -111,10 +111,10 @@ export default function CommandCenter() {
       </div>
 
       {/* Main Area */}
-      <div className="flex-none lg:flex-1 flex flex-col lg:flex-row gap-4 min-h-[420px] lg:min-h-0">
+      <div className="flex-1 flex flex-col lg:flex-row gap-4 min-h-0">
 
         {/* Live Map */}
-        <div className="flex-1 bg-[#1E293B] rounded border border-slate-800 overflow-hidden relative flex flex-col">
+        <div className="h-[420px] lg:h-auto lg:flex-1 shrink-0 bg-[#1E293B] rounded border border-slate-800 overflow-hidden relative flex flex-col">
           <div className="p-3 border-b border-slate-800 bg-slate-900/50 flex justify-between items-center shrink-0">
             <h2 className="text-sm font-semibold text-slate-200 flex items-center gap-2">
               <span className="flex h-2 w-2 relative">
