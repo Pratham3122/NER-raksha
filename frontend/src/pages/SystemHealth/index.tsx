@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Activity, RefreshCw, Server, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 interface ComponentHealth {
   status: string;
   message: string;
@@ -25,14 +27,14 @@ export default function SystemHealth() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:8000/api/system/health');
+      const response = await fetch(`${API_BASE_URL}/api/system/health`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
       const data = await response.json();
       setHealthData(data);
     } catch (err) {
-      setError('Cannot connect to API at localhost:8000');
+      setError('Cannot connect to the NER-RAKSHA API');
     } finally {
       setIsLoading(false);
     }
@@ -172,3 +174,4 @@ export default function SystemHealth() {
     </div>
   );
 }
+
